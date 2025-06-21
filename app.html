@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <script defer src="./script/animations.js"></script>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div class="particles" id="particles"></div>
+
+    <div class="container-app">
+        <section class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span>Rolando Tabios Jr.</span>
+                </div>
+                <div class="link-nav-container">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutMe">About Me</a></li>
+                        <li><a href="#contactMe">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="content-container">
+            <section class="first-section" id="home">
+                <div class="first-section-content">
+                    <div class="profession">
+                        <h1>Full Stack Developer</h1>
+                    </div>
+                    <p>From start to finish, I build applications designed to solve real problems in smart, effective
+                        ways.</p>
+                    <div class="buttonGroup">
+                        <a class="primaryButton" href="#work">View my work</a>
+                        <a class="secondaryButton" href="./cv/Rolando Tabios Jr - RESUME.pdf" download>Download CV</a>
+                    </div>
+                </div>
+                <div class="arrow-container">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </section>
+
+            <section class="second-section scroll-animate" id="aboutMe">
+                <div class="aboutme-container">
+                    <div class="title-aboutme">
+                        <h1>About Me</h1>
+                    </div>
+                    <div class="aboutme-content">
+                        <p>I'm a full-stack developer who enjoys turning ideas into real, working apps. Whether it's
+                            building smooth user interfaces or setting up solid back-end systems, I love creating things
+                            that people find useful. I'm always learning and always coding because there's always
+                            something new to build.</p>
+                        <p>My approach blends creativity with clear goals: I aim to turn ideas into solutions by
+                            balancing innovative features with performance, usability, and maintainability.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="third-section scroll-animate" id="work">
+                <div class="work-title">
+                    <h1>Featured Work</h1>
+                </div>
+                <div class="work-container">
+                    <div class="work-card">
+                        <div class="img-work">
+                            <div class="video-placeholder">
+                                <video src="./assets/vendingm.mp4" controls></video>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="project-title">
+                                <span>IoT Snack Vending Machine</span>
+                            </div>
+                            <div class="details-project">
+                                <p>This thesis project involved the development of a custom vending machine system. It
+                                    uses an Arduino microcontroller for hardware control and a color sensor to validate
+                                    token input. A Gcash QR code enables cashless payments, with transactions sent
+                                    directly to the owner's account. An ESP32 module provides Wi-Fi connectivity,
+                                    allowing integration with Google Firebase for real-time logging and inventory
+                                    monitoring.</p>
+                            </div>
+                            <div class="category">
+                                <div>
+                                    <p>Arduino(C++)</p>
+                                </div>
+                                <div>
+                                    <p>Google Firebase</p>
+                                </div>
+                                <div>
+                                    <p>MIT App Inventor</p>
+                                </div>
+                                <div>
+                                    <p>Gcash Payment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="img-work">
+                            <div class="video-placeholder">
+                                <i class="fas fa-microchip"></i>
+                                <span>Digital Output Monitor</span>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="project-title">
+                                <span>Digital Output Monitor</span>
+                            </div>
+                            <div class="details-project">
+                                <p>Earned First Place in kaizen activity at Nichivi Philippines Corporation. This
+                                    project monitors the production output on production lines, providing real-time
+                                    analytics and performance tracking to optimize manufacturing efficiency and quality
+                                    control processes.</p>
+                            </div>
+                            <div class="category">
+                                <div>
+                                    <p>Raspberry Pi(Python)</p>
+                                </div>
+                                <div>
+                                    <p>MySQL</p>
+                                </div>
+                                <div>
+                                    <p>PHP</p>
+                                </div>
+                                <div>
+                                    <p>Javascript</p>
+                                </div>
+                                <div>
+                                    <p>HTML/CSS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="img-work">
+                            <div class="video-placeholder">
+                                <i class="fas fa-microchip"></i>
+                                <span>Movie App</span>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="project-title">
+                                <span>Coming Soon</span>
+                            </div>
+                            <div class="details-project">
+                                <p>On-going development...</p>
+                            </div>
+                            <div class="category">
+                                <div>
+                                    <p>React</p>
+                                </div>
+                                <div>
+                                    <p>Node.js</p>
+                                </div>
+                                <div>
+                                    <p>MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work-together-container scroll-animate" id="contactMe">
+                <div class="work-together">
+                    <h2>Let's Work Together</h2>
+                </div>
+                <div class="send-msg-container">
+                    <div class="send-msg">
+                        <button>Send Email</button>
+                    </div>
+                    <div class="send-msg">
+                        <button class="btn-linkin"><a
+                                href="https://www.linkedin.com/in/rolando-tabiosjr-67b775285/?trk=opento_sprofile_details"
+                                style="text-decoration: none; color: white;">Connect on LinkedIn</a></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="footer">
+            <footer>© Copyright 2025 Rolando Tabios Jr</footer>
+        </section>
+    </div>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
